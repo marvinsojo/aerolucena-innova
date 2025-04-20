@@ -1,16 +1,30 @@
 @import "tailwindcss";
+@import '@fontsource/lato';
+@import '@fontsource/oswald';
+
 
 @layer utilities {
-  .bg-avion1 {
-    background-image: url("/img/avion1.jpeg");
+  .bg-airplane-01 {
+    background-image: url("/img/airplane-01.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
-  .bg-avion2 {
-    background-image: url("/img/avion2.jpg");
+  .bg-airplane-02 {
+    background-image: url("/img/airplane-02.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
   }
+}
+
+@theme {
+  --color-electricblue: #033e8c;
+  --color-steelblue: #0367a6;
+  --color-sienna: #f28963;
+  --color-carmine: #d92b04;
+  --color-steel: #B4BDC7;
+
+  --font-lato: "Lato", sans-serif;
+  --font-oswald: "Oswald", sans-serif;
 }
