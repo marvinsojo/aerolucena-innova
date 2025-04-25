@@ -24,7 +24,7 @@ const About = () => {
     <div className="flex flex-col">
       <div className="w-full flex justify-center items-center md:min-h-[80vh] bg-airplane-02">
       <div className="absolute inset-0 bg-black/30"></div>
-        <div className="bg-steelblue/60 backdrop-blur-sm rounded-xl w-3/4 p-4 my-30 md:my-30 text-center text-white">
+        <div className="bg-steelblue/65 backdrop-blur-sm rounded-xl w-3/4 p-4 my-30 md:my-30 text-center text-white">
           <h2 className="text-4xl mb-6 font-bold md:text-6xl font-oswald">Who We Are</h2>
           <p className="text-xl font-lato">
             AeroLucena Innova Services is a company that provides professional

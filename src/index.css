@@ -16,6 +16,12 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+  .bg-airplane-03 {
+    background-image: url("/img/airplane-03.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @theme {

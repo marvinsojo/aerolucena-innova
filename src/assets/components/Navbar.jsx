@@ -34,7 +34,10 @@ const Navbar = () => {
       } transition duration-700 ease-in-out py-4 text-white text-xl fixed w-full flex md:justify-between items-center px-6 md:px-16 z-20`}
     >
       <div className="flex-grow md:flex-grow-0 flex justify-center md:justify-start">
-        <Link to="/" className="w-20 transition-transform duration-200 hover:scale-105 active:scale-98 cursor-pointer">
+        <Link
+          to="/"
+          className="w-20 transition-transform duration-200 hover:scale-105 active:scale-98 cursor-pointer"
+        >
           {isScrolled ? (
             <img src={LogoAeroLucenaWhite} alt="Logo" />
           ) : (
@@ -43,7 +46,6 @@ const Navbar = () => {
         </Link>
       </div>
 
-      
       <button
         onClick={toggleMenu}
         className="md:hidden focus:outline-none absolute right-6 text-white text-2xl"
@@ -65,7 +67,9 @@ const Navbar = () => {
             to="/"
             onClick={() => setIsOpen(false)}
             className={`border-b-4 transition-all duration-500 ease-in-out origin-left font-lato ${
-              isActive("/") ? "border-carmine scale-x-100" : "border-transparent scale-x-0"
+              isActive("/")
+                ? "border-carmine scale-x-100"
+                : "border-transparent scale-x-0"
             }`}
           >
             Home
@@ -76,7 +80,9 @@ const Navbar = () => {
             to="/about"
             onClick={() => setIsOpen(false)}
             className={`border-b-4 transition-all duration-500 ease-in-out origin-left font-lato ${
-              isActive("/about") ? "border-carmine scale-x-100" : "border-transparent scale-x-0"
+              isActive("/about")
+                ? "border-carmine scale-x-100"
+                : "border-transparent scale-x-0"
             }`}
           >
             About
@@ -87,7 +93,9 @@ const Navbar = () => {
             to="/contact"
             onClick={() => setIsOpen(false)}
             className={`border-b-4 transition-all duration-500 ease-in-out origin-left font-lato ${
-              isActive("/contact") ? "border-carmine scale-x-100" : "border-transparent scale-x-0"
+              isActive("/contact")
+                ? "border-carmine scale-x-100"
+                : "border-transparent scale-x-0"
             }`}
           >
             Contact
